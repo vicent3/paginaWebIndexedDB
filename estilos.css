@@ -1,0 +1,67 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    justify-content: start;
+}
+
+.navegacion {
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+}
+
+.navegacion a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.boton-nav {
+    justify-content: end;
+    padding: 4px;
+}
+
+.card {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.cards {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.tabla th,
+td {
+    border: 1px solid black;
+}
+
+
+.review {
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.section-tabla {
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+}
+
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+}
