@@ -47,31 +47,39 @@
         <section class="card">
             <div class="cards">
                 <h2>Clientes</h2>
-                <label for="">Nombre</label>
-                <input type="text" placeholder="Nombre">
+                <label for="">Nombre</label> <br>
+                <input type="text" placeholder="Nombre" id="nombreCliente"> <br>
                 <label for="">CI</label>
                 <div>
-                    <input type="number">
-                    <button>
+                    <input type="text" id="ciCliente" placeholder="CI">
+                    <button id="btnAgregarCliente">
                         Agregar
                     </button>
-                    <button>
+                    <button id="btnBorrarClientes">
                         Borrar
                     </button>
-                </div>
+                </div> <br> <br>
+
+                <table id="tablaClientes" class="tabla">
+                    <tr>
+                        <th>Nombre</th>
+                        <th>CI</th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </table>
             </div>
             <div class="cards">
                 <h2>Pedido</h2>
                 <label for="">Producto</label>
                 <div>
-                    <input type="text" placeholder="Producto">
-                    <button>Agregar</button>
+                    <input type="text" placeholder="Producto" id="productoPedido">
+                    <button id="btnAgregarPedido">Agregar</button>
                 </div>
-                <label for="">Cantidad</label>
-                <input type="number" placeholder="0">
-                <label for="">Cliente</label>
-                <select name="cliente" id="">
-                    <option value="pedro">Pedro</option>
+                <label for="">Cantidad</label> <br>
+                <input type="number" placeholder="0" id="cantidadPedido"> <br>
+                <label for="">Cliente</label> <br>
+                <select name="cliente" id="clienteSelect">
                 </select>
             </div>
         </section>
@@ -120,20 +128,13 @@
             </div>
             <div>
                 <img src="" alt="">
-                <table class="tabla">
+                <table class="tabla" id="tablaPedidos">
                     <tr>
                         <th>Producto</th>
                         <th>Cantidad</th>
                         <th>Cliente</th>
                         <th></th>
                         <th></th>
-                    </tr>
-                    <tr>
-                        <td>Laptop</td>
-                        <td>Cantidad</td>
-                        <td>Cliente</td>
-                        <td><button>Actualizar</button></td>
-                        <td><button>Borrar</button></td>
                     </tr>
                 </table>
             </div>
