@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     request.onerror = (error) => console.log("Error al abrir la base de datos:", error);
     request.onsuccess = (event) => {
         db = event.target.result;
-        console.log("Base de datos lista");
+        // console.log("Base de datos lista");
         mostrarClientes();
         mostrarPedidos();
     };

@@ -9,6 +9,19 @@
 
 .logo {
     justify-content: start;
+    height: 50px;
+    width: 150px;
+}
+
+.imagen {
+    height: 450px;
+    width: 350px;
+}
+
+.ropero {
+    height: 160px;
+    width: 120px;
+    margin: 1rem;
 }
 
 .navegacion {
@@ -35,9 +48,33 @@
 }
 
 .cards {
+    /* text-align: center; */
     border: 1px solid black;
     border-radius: 10px;
     padding: 15px;
+}
+
+.titulo {
+    padding-left: 15px;
+}
+
+h4,
+p {
+    margin: 0;
+}
+
+.cardfoto {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+}
+
+
+.logop {
+    height: 22px;
+    width: 22px;
 }
 
 .tabla th,
