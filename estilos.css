@@ -1,5 +1,6 @@
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
 }
 
 .nav {
@@ -101,4 +102,39 @@ td {
     display: flex;
     justify-content: center;
     gap: 6rem;
+}
+
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navegacion {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .menu-toggle {
+        display: block;
+        background: none;
+        border: none;
+        font-size: 1.5rem;
+        cursor: pointer;
+        margin-bottom: 0.5rem;
+    }
+
+    .card,
+    .review,
+    .section-tabla,
+    .footer {
+        align-items: center;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .imagen {
+        max-width: 100%;
+        height: auto;
+    }
 }
